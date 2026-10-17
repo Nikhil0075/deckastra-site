@@ -27,7 +27,7 @@ Expected result:
 
 ## Windows installation
 
-The x64 installer is published as a GitHub prerelease. It is unsigned, so Windows SmartScreen may show **Windows protected your PC**. Compare the downloaded file's SHA-256 with the value on the card. If it matches, choose **More info** and then **Run anyway**.
+The x64 installer is published through Deckastra's public installer storage. It is unsigned, so Windows SmartScreen may show **Windows protected your PC**. Compare the downloaded file's SHA-256 with the value on the card. If it matches, choose **More info** and then **Run anyway**.
 
 ## Requirements and boundaries
 

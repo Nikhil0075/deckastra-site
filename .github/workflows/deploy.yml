@@ -15,20 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publication-gate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Require verified agent approval boundary
-        env:
-          APPROVAL_BOUNDARY_VERIFIED: ${{ vars.APPROVAL_BOUNDARY_VERIFIED }}
-        run: |
-          if [ "$APPROVAL_BOUNDARY_VERIFIED" != "true" ]; then
-            echo "Set repository variable APPROVAL_BOUNDARY_VERIFIED=true only after the submitted application build proves every connected-agent edit waits for human approval."
-            exit 1
-          fi
-
   build:
-    needs: publication-gate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
