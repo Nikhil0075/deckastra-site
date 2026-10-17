@@ -1,0 +1,26 @@
+{
+  "name": "deckastra-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Product, documentation, and hackathon site for Deckastra.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "typecheck": "vue-tsc -p tsconfig.json --noEmit",
+    "validate": "node scripts/validate-content.mjs",
+    "check": "npm run typecheck && npm run validate && npm run build",
+    "test": "npm run check"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "typescript": "^5.9.3",
+    "vitepress": "1.6.4",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.1.1"
+  }
+}
