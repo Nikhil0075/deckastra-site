@@ -45,9 +45,12 @@ export const downloads: DownloadArtifact[] = [
   },
   {
     platform: 'Windows', architecture: 'x64', filename: 'Deckastra-0.9.0-beta.1-win-x64.exe', version: '0.9.0-beta.1',
-    status: 'pending', signature: 'unsigned beta', byteSize: 220640505,
+    status: 'available', signature: 'unsigned beta',
+    url: 'https://github.com/Nikhil0075/deckastra/releases/download/v0.9.0-beta.1/Deckastra-0.9.0-beta.1-win-x64.exe',
+    byteSize: 220640505,
     sha256: '88EBD5978CEDDB18D0084577AAFC42EDF6AD04A6FF1A4AFACC8FA0153148C2CC',
-    warning: 'The verified installer exists locally, but its public release URL is not published yet. SmartScreen may warn when it becomes available.'
+    releaseDate: '17 October 2026',
+    warning: 'Unsigned beta. Windows SmartScreen may show an unrecognized app warning. Verify the SHA-256, then use More info → Run anyway only when it matches.'
   },
   {
     platform: 'macOS', architecture: 'ARM64 · Apple silicon', filename: 'Deckastra-0.9.0-beta.1-mac-arm64.dmg', version: '0.9.0-beta.1',

@@ -7,7 +7,7 @@ title: Roadmap
 ## After the hackathon
 
 - Sign and notarize desktop applications.
-- Publish the Windows installer and final supported-system matrix.
+- Code-sign and notarize desktop builds, then publish a final supported-system matrix.
 - Verify the public web application origin and connect the site CTA.
 - Finish hosted-sharing acceptance and operator-approved legal documents.
 

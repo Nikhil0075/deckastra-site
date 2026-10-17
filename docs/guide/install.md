@@ -14,7 +14,7 @@ title: Installation
 
 ## Windows x64
 
-The Windows installer has been built and verified locally, but its public release URL is not yet available. When the download card becomes active:
+The Windows x64 installer is available from the public prerelease. It is unsigned, so:
 
 1. Download `Deckastra-0.9.0-beta.1-win-x64.exe`.
 2. Verify SHA-256 `88EBD5978CEDDB18D0084577AAFC42EDF6AD04A6FF1A4AFACC8FA0153148C2CC`.

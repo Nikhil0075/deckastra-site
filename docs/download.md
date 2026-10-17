@@ -1,6 +1,6 @@
 ---
 title: Download Deckastra
-description: Download the unsigned Deckastra 0.9.0 beta for macOS or check Windows and web availability.
+description: Download the unsigned Deckastra 0.9.0 beta for Windows or macOS, or open the web application.
 ---
 
 # Download Deckastra
@@ -25,9 +25,9 @@ Expected result:
 9312FE790F38A405862FDFC2059D0AC3389B05FE10341E462146190B473A800E
 ```
 
-## Windows status
+## Windows installation
 
-The x64 installer exists and has been hashed, but its public release URL is not yet available. The download remains disabled until the published artifact returns successfully and matches the recorded SHA-256.
+The x64 installer is published as a GitHub prerelease. It is unsigned, so Windows SmartScreen may show **Windows protected your PC**. Compare the downloaded file's SHA-256 with the value on the card. If it matches, choose **More info** and then **Run anyway**.
 
 ## Requirements and boundaries
 

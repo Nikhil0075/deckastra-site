@@ -8,7 +8,7 @@ Hackathon credibility depends on saying what remains unfinished.
 
 - Desktop installers are unsigned beta software.
 - The hackathon web app uses its native Cloud Run URL rather than a custom domain.
-- The Windows installer lacks a public release URL even though the local artifact is verified.
+- Windows and macOS installers are unsigned beta builds and may trigger operating-system trust prompts.
 - Public hosted-sharing acceptance remains incomplete.
 - PDF and PowerPoint are supported; perfect PowerPoint fidelity is not claimed.
 - Wider production load, recovery, alert-receipt, and security acceptance remain future work.
