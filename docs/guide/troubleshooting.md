@@ -24,6 +24,8 @@ Keep the editor open, use **Retry** after the service returns, and download the 
 
 Reject or discard stale work and ask the agent to create a new proposal against the latest revision. Do not force the old patch onto the new deck.
 
+![The stale-edit guard offering Merge, Discard mine, and Keep editing](/screenshots/37-stale-edit-guard.png)
+
 ## SmartScreen or Gatekeeper blocks the installer
 
 The beta is unsigned. Verify the official filename and SHA-256 before using the platform’s manual approval flow. Stop if the checksum differs.

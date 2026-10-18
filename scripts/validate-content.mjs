@@ -61,7 +61,7 @@ for (const [name, expected] of Object.entries(manifest)) {
 
 const actualScreenshots = (await readdir(join(publicRoot, 'screenshots'))).filter(name => /\.(png|jpg)$/i.test(name))
 const actualDiagrams = (await readdir(join(publicRoot, 'diagrams'))).filter(name => name.endsWith('.svg'))
-if (actualScreenshots.length !== 26) errors.push(`Expected 26 screenshots, found ${actualScreenshots.length}`)
+if (actualScreenshots.length !== 34) errors.push(`Expected 34 screenshots, found ${actualScreenshots.length}`)
 if (actualDiagrams.length !== 8) errors.push(`Expected 8 SVG diagrams, found ${actualDiagrams.length}`)
 
 const toolsPage = await readFile(new URL('../docs/developers/mcp-tools.md', import.meta.url), 'utf8')

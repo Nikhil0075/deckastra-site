@@ -6,6 +6,8 @@ title: Example prompts
 
 These examples inspect first, bound the requested change, and leave authority with the person in Deckastra.
 
+![Proposals from Antigravity waiting for review in Deckastra](/screenshots/10-proposal-review.png)
+
 <CopyPrompt title="Create a deck" prompt="In Deckastra, create an eight-slide technical briefing. Use a reviewed template, include one architecture diagram and one editable comparison table, run Design Check, and leave the result as proposals for my review." />
 
 <CopyPrompt title="Improve one slide" prompt="Read the currently open slide and propose a clearer hierarchy without changing its factual wording. Keep the current design language and do not touch other slides." />

@@ -12,4 +12,4 @@ The observed Release 8 topology uses a public Cloud Run web service and API, a p
 
 Release 8 was observed on the web, API, and export worker with a passing production smoke on 17 October 2026. That does not by itself establish broad load, disaster-recovery, alert-receipt, or penetration acceptance.
 
-The [public web application](https://deckastra-web-794139896808.asia-south1.run.app/) is hosted on Cloud Run for the hackathon and was independently confirmed to return its HTML application shell. The separate API service is intentionally not presented as the web application.
+The [public web application](https://deckastra-web-fwqqltaqta-el.a.run.app/) is hosted on Cloud Run for the hackathon and was independently confirmed to return its HTML application shell. The separate API service is intentionally not presented as the web application.

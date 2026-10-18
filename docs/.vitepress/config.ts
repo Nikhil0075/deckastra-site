@@ -8,15 +8,20 @@ export default defineConfig({
   lang: 'en-US',
   base: '/deckastra-site/',
   cleanUrls: true,
+  appearance: false,
   lastUpdated: true,
   sitemap: { hostname: 'https://nikhil0075.github.io/deckastra-site/' },
   head: [
     ['link', { rel: 'icon', href: '/deckastra-site/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#07152f' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Deckastra — agent speed, human control' }],
     ['meta', { property: 'og:description', content: 'Structured, editable presentations with reviewable agent proposals.' }],
-    ['meta', { property: 'og:image', content: 'https://nikhil0075.github.io/deckastra-site/brand/deckastra-mark.png' }],
+    ['meta', { property: 'og:image', content: 'https://nikhil0075.github.io/deckastra-site/brand/og-card.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:alt', content: 'Deckastra: presentations with agent speed and human control' }],
+    ['meta', { name: 'twitter:image', content: 'https://nikhil0075.github.io/deckastra-site/brand/og-card.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
   themeConfig: {
@@ -62,7 +67,7 @@ export default defineConfig({
         ]
       },
       { text: 'Hackathon', link: '/hackathon/' },
-      { text: 'Open Web App ↗', link: 'https://deckastra-web-794139896808.asia-south1.run.app/' },
+      { text: 'Open Web App', link: 'https://deckastra-web-fwqqltaqta-el.a.run.app/' },
       { text: 'Download', link: '/download' },
       { text: 'GitHub', link: repository }
     ],

@@ -9,6 +9,7 @@ lastUpdated: false
 ---
 
 <script setup>
+import { withBase } from 'vitepress'
 const pillars = [
   { icon: '◇', title: 'Structured, not flattened', text: 'Text, charts, diagrams, code, motion, narration, and media remain addressable objects in the canonical .mydeck document.', link: './product/features' },
   { icon: '⌁', title: 'Deterministic composition', text: 'Agents propose intent. Deckastra’s layout, renderer, animation, and export engines turn it into reproducible output.', link: './technology/' },
@@ -24,7 +25,7 @@ const features = [
 ]
 const metrics = [
   { value: '50', label: 'MCP tools' },
-  { value: '26', label: 'current product captures' },
+  { value: '34', label: 'current product captures' },
   { value: '8', label: 'architecture diagrams' },
   { value: '48', label: 'keyboard shortcuts' }
 ]
@@ -67,9 +68,12 @@ const metrics = [
   <EvidenceGallery />
 </section>
 
-<section class="home-section">
-  <p class="section-kicker">Hackathon submission</p>
-  <h2>Media, Content & Digital Experiences.</h2>
-  <p class="section-intro">The submission brings together desktop and web surfaces, 50 agent tools, reviewable proposals, deterministic rendering, live language and voice workflows, and PDF/PowerPoint export.</p>
-  <div class="hero-actions"><a class="button primary" href="./hackathon/">Follow the judge journey</a><a class="button secondary" href="./download">Get the beta</a></div>
+<section class="home-section split-section">
+  <div>
+    <p class="section-kicker">Hackathon submission</p>
+    <h2>Media, Content & Digital Experiences.</h2>
+    <p class="section-intro">Deckastra is a submission to <a href="https://aibuildercup.com/">AI Builder Cup</a>. It brings together desktop and web surfaces, 50 agent tools, reviewable proposals, deterministic rendering, live language and voice workflows, and PDF/PowerPoint export.</p>
+    <div class="hero-actions"><a class="button primary" href="./hackathon/">Follow the judge journey</a><a class="button secondary" href="./download">Get the beta</a><a class="text-link" href="https://aibuildercup.com/">AI Builder Cup →</a></div>
+  </div>
+  <img class="split-art" :src="withBase('/illustrations/agent-approval.jpg')" alt="An AI agent proposes a change to a stack of slides while a person approves it" width="1200" height="896" loading="lazy">
 </section>

@@ -20,4 +20,6 @@ The Windows x64 installer is available from the public prerelease. It is unsigne
 2. Verify SHA-256 `88EBD5978CEDDB18D0084577AAFC42EDF6AD04A6FF1A4AFACC8FA0153148C2CC`.
 3. Open the installer. If SmartScreen appears, choose **More info**, verify the source, then **Run anyway**.
 
+![Windows SmartScreen showing the Deckastra installer with Run anyway and Don’t run](/screenshots/31-windows-smartscreen.png)
+
 Internet access is needed for sign-in and cloud-backed features. Core local editing does not require a provider connection. A second display is optional for the presenter console.

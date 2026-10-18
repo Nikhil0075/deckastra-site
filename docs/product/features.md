@@ -32,4 +32,4 @@ title: Features
 - PDF and PowerPoint export with a degradation ledger.
 - Version history, inverse operations, recovery journal, emergency local copy, backup, and restore.
 
-![Deckastra Design Check findings](/screenshots/21-design-check.jpg)
+![Deckastra Design Check findings](/screenshots/21-design-check.png)

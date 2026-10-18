@@ -8,7 +8,34 @@ title: Connect an agent
 
 Deckastra must be open. Go to **Settings → Agents**, choose the client, copy the configuration generated for the installed location, and select **Allow agent access**. Permission lasts up to twelve hours and starts off after a fresh install or upgrade.
 
+![The Agents on chip in the editor, with its time limit and Stop agent access control](/screenshots/35-agent-access-chip.png)
+
 When a client attaches, Deckastra shows **Agent connected**. Stopping access removes the attachment and revokes issued grants.
+
+## Antigravity
+
+Copy Deckastra’s generated block into `.agents/mcp_config.json` in your workspace:
+
+```json
+{
+  "mcpServers": {
+    "deckastra": {
+      "command": "C:/Users/<you>/AppData/Local/Programs/Deckastra/Deckastra.exe",
+      "args": ["C:/Users/<you>/AppData/Local/Programs/Deckastra/resources/mcp/cli.mjs"],
+      "env": {
+        "ELECTRON_RUN_AS_NODE": "1",
+        "DECKASTRA_MCP_CLIENT": "antigravity"
+      }
+    }
+  }
+}
+```
+
+![Deckastra Settings → Agents with the Antigravity configuration selected](/screenshots/33-antigravity-config.png)
+
+Refresh MCP servers in Antigravity, then ask the agent to list Deckastra workspaces. Keep absolute paths.
+
+![Antigravity confirming the Deckastra MCP connection and the open presentation](/screenshots/34-antigravity-connected.png)
 
 ## Claude Code
 

@@ -34,13 +34,13 @@ export const siteLinks: SiteLinks = {
   github: 'https://github.com/Nikhil0075/deckastra',
   issues: 'https://github.com/Nikhil0075/deckastra/issues',
   releases: 'https://github.com/Nikhil0075/deckastra/releases',
-  webApp: 'https://deckastra-web-794139896808.asia-south1.run.app/'
+  webApp: 'https://deckastra-web-fwqqltaqta-el.a.run.app/'
 }
 
 export const downloads: DownloadArtifact[] = [
   {
     platform: 'Web', architecture: 'Browser', version: 'Release 8', status: 'available', signature: 'not applicable',
-    url: 'https://deckastra-web-794139896808.asia-south1.run.app/',
+    url: 'https://deckastra-web-fwqqltaqta-el.a.run.app/',
     warning: 'Hosted directly on Google Cloud Run for the hackathon. This link opens the application UI, not the API service.'
   },
   {

@@ -6,7 +6,7 @@ title: Hackathon submission
 
 <StatusBadge tone="beta">Media, Content & Digital Experiences</StatusBadge>
 
-Deckastra is an AI-native presentation studio built around a strict product thesis: agents propose structured intent, deterministic engines compose, and people approve reviewable changes.
+Deckastra is a submission to [AI Builder Cup](https://aibuildercup.com/) in the Media, Content & Digital Experiences track. It is an AI-native presentation studio built around a strict product thesis: agents propose structured intent, deterministic engines compose, and people approve reviewable changes.
 
 ## Problem solved
 
@@ -22,7 +22,7 @@ Presentation automation often trades away editability, review, or trustworthy ex
 - PDF and editable PowerPoint export with degradation reports.
 - Recovery, version history, backup, privacy, and diagnostic boundaries.
 
-<ProofMetrics :items="[{ value: '26', label: 'verified product captures' }, { value: '8', label: 'architecture diagrams' }, { value: '50', label: 'MCP tools' }, { value: '3', label: 'observed cloud services' }]" />
+<ProofMetrics :items="[{ value: '34', label: 'verified product captures' }, { value: '8', label: 'architecture diagrams' }, { value: '50', label: 'MCP tools' }, { value: '3', label: 'observed cloud services' }]" />
 
 ## Judge journey
 

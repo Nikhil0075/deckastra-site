@@ -3,144 +3,184 @@
     "bytes": 460582,
     "sha256": "b3f780cbeb8825a311f7977a73be58f8fe3766bb9f53cb2376444bc74892b937"
   },
+  "brand/og-card.png": {
+    "bytes": 867611,
+    "sha256": "3b6d8c21270cca3f669bed0b3e6857dcb4c07f6340e5012070b59979581dfe64"
+  },
   "diagrams/01-system-context.svg": {
-    "bytes": 28634,
-    "sha256": "47e2810c223f5daa6b0067f5ad72e24eb4841afbb2a70dd70c082e7a150a3c31"
+    "bytes": 69749,
+    "sha256": "f777f1dd60bacae236fefcabdcc58719fc4cd3a9c0ac7c6f7e47227b69e68eed"
   },
   "diagrams/02-monorepo-components.svg": {
-    "bytes": 44331,
-    "sha256": "4e4081fd386b5eac38a48417a0eec5e4a9c12f53a0eeafa47cd5e93a4cd82ae4"
+    "bytes": 13312,
+    "sha256": "fdad28aa5108d1ad62430ee141d2018d37c8e34c634a1f2fb48cfd8d394a5892"
   },
   "diagrams/03-generation-rendering.svg": {
-    "bytes": 35813,
-    "sha256": "136aaeb66ec5b5e68c3727dfb08ff0fce26219975fc1e6141747623ff71207c2"
+    "bytes": 12435,
+    "sha256": "0e1a0708d24fcf886d6b11e5ece110e5b20bb623baef9ba6409f14b605e5f812"
   },
   "diagrams/04-change-proposal-lifecycle.svg": {
-    "bytes": 37617,
-    "sha256": "4a4abe652bea769b8ee15ef997ef80e706f3f54a7faaec92b799a4af8a63594f"
+    "bytes": 56953,
+    "sha256": "f45f2b3d7ef3af2c466fce089a8f341691ff5a954446e60230a42e7d3ce2f92f"
   },
   "diagrams/05-desktop-local-runtime.svg": {
-    "bytes": 40982,
-    "sha256": "0f77b03b4e2ffc4116a602f11d39fbc9f6ad85935cdf1bb754df99515c989656"
+    "bytes": 15266,
+    "sha256": "dbe32f675a367daeb39863e7ca7c741484df5ce3d404dd868d8aa78a4d3b4eaf"
   },
   "diagrams/06-google-cloud-topology.svg": {
-    "bytes": 61582,
-    "sha256": "c5468aefa282250d9bb38323dce3e4353b0ce417c2e793fec4bc6da930783295"
+    "bytes": 16333,
+    "sha256": "75703e34f580f799116fcd32322b9056daea72661ced032f38fb8462b1c7e5b4"
   },
   "diagrams/07-auth-storage-export-connections.svg": {
-    "bytes": 43374,
-    "sha256": "9a0b8b985c401eb7368646a1546addb7918f83e322736d1290adf3477f772c88"
+    "bytes": 11228,
+    "sha256": "a6dc2079e46c0ece573b669fdf0feccaef944e0376199197ed7ef66544f1a737"
   },
   "diagrams/08-scaling-failure-cost-controls.svg": {
-    "bytes": 46851,
-    "sha256": "669c3d0a8958b817716fc2d2d640fe4afa560c0b7cbb1ea22cd80b1f921c9316"
+    "bytes": 13037,
+    "sha256": "ecd5fa8e42e56d5aad92fb2a0bcdd7fa03b0fafac825e58f11b3e2c807499587"
   },
   "favicon.ico": {
     "bytes": 50120,
     "sha256": "69d04ed46067cd802dd6ddd8c97e9e42ca21cd37975ab096d902265b3e6ac96e"
   },
+  "illustrations/agent-approval.jpg": {
+    "bytes": 67171,
+    "sha256": "c9ff4cf17f48f8cc96fc5b4834b823ea7a681e7289ebf1cbc577ff0a3a68f95a"
+  },
   "screenshots/01-projects-home.png": {
-    "bytes": 60102,
-    "sha256": "68ece3fe3c68993fd4b2e6ac5e9b1967f9fb09622341106240cd4a1917311a55"
+    "bytes": 131589,
+    "sha256": "917ac10ca3f16628d8145c8b033044f0d910e728e48f2ae9161de8a9301b4529"
   },
   "screenshots/02-template-gallery.png": {
-    "bytes": 548060,
-    "sha256": "c45509a56ee708bd02f4f9edd26b65180d9363943863895e65b4c8b848fbec9a"
+    "bytes": 1002874,
+    "sha256": "42e0ad681cf551083fcef43b7648fd0fe2497cab3a34ce057f36793e29c1b1b3"
   },
   "screenshots/03-editor-selection.png": {
-    "bytes": 122543,
-    "sha256": "641c0c037605e03c44e923f346f58c01f5439077de2131b496e361bbb8a5558b"
+    "bytes": 290058,
+    "sha256": "99d880c64ef5f9658a8bf4b6209e39f69df46d3d898c9b4007244903571bb2f5"
   },
   "screenshots/04-direct-authoring.png": {
-    "bytes": 137443,
-    "sha256": "d6a46369e0c74787107f462fcfbb6c70e27ef4c4dadeace64687e7899bbed09d"
+    "bytes": 743438,
+    "sha256": "ecc022034a179bbe79a4fe4d0a19b973c200291e90f923fc42e0bedc0285e111"
   },
   "screenshots/05-structured-code-view.png": {
-    "bytes": 119420,
-    "sha256": "443190df1af8ccb6dae9adf1075117fab79232eb52e480d04085a96e55749e3f"
+    "bytes": 302178,
+    "sha256": "8f0a703acdff6951c21750b3bddf58394a161d4567641d8edecb9972d20ac91a"
   },
   "screenshots/06-design-controls.png": {
-    "bytes": 369465,
-    "sha256": "04a4d8970db934c9440d5901d4e55b183aafe4ef25c1ffab38119ec1bd5ecd00"
+    "bytes": 594293,
+    "sha256": "e9d52fee5f9d7a17a74fc1e48d8cbcf22e1d8e78e8a166dcfe5f793c747b2a80"
   },
   "screenshots/07-template-generated-deck.png": {
-    "bytes": 242932,
-    "sha256": "162f678067c8c53589431a024d2f6a736b90dc731bcecf0533751c2970308edc"
+    "bytes": 485091,
+    "sha256": "085121371cfa2c5ab8a239f7e67adfc8c907717c27f8204e4df38765868d48c8"
   },
   "screenshots/08-media-library-generation.png": {
-    "bytes": 211202,
-    "sha256": "4307020b6667b25e10dd4503ee475bd902cc2639b22121289ff3ae2b6f92fba6"
+    "bytes": 417336,
+    "sha256": "7d931dcfd2e66fc515de5980b626df24ff76359965bbca0ae2507856d5af7b22"
   },
   "screenshots/09-ai-proposal.png": {
-    "bytes": 137084,
-    "sha256": "9c8c95a17d43fef126e4c9e74b927049580693dc3c611b947ddbad67b0f36118"
+    "bytes": 298179,
+    "sha256": "040cced3606d677ad02606d6f61bb54a4e3afedea9d6c9d13872635bd103a164"
   },
   "screenshots/10-proposal-review.png": {
-    "bytes": 60221,
-    "sha256": "9dac3aa99de18d09ffbc7a2e14bdeaacab6ebf1bfeb3c5b2944ceef85ca16107"
+    "bytes": 1166733,
+    "sha256": "9c88f8763bc527d6af479fb55413182cc48981da2d1e3aafd1b2a90e0bcd5372"
   },
   "screenshots/11-motion-authoring.png": {
-    "bytes": 140804,
-    "sha256": "3176903ff8ed12e68cbe52871f29f6ea7202134ccc727661bb496a9aecd114ef"
+    "bytes": 320024,
+    "sha256": "ac96d1019cc446173b52cad83d3e387cb470b0c226c1c95d1d2e8cf670249230"
   },
   "screenshots/12-timeline-editing.png": {
-    "bytes": 118050,
-    "sha256": "e6d121e6b45f1d8c97b451fe6dace1e850664f1518b92d423735d3bce0047d58"
+    "bytes": 496852,
+    "sha256": "97ea402e4dbf41d51eac91d44481240570d04aa0321e3bd7343713ef60b1de90"
   },
   "screenshots/13-presenter-console.png": {
-    "bytes": 49420,
-    "sha256": "51281305a8a16f7a9c150fce36734c6c3d5ccbe74b371cce8d1e90e34256e57c"
+    "bytes": 140305,
+    "sha256": "4ba3dd11aaf418e8f87bf4775cea0bf83f5bad689e78a490442888354e291e04"
   },
   "screenshots/14-audience-ink.png": {
-    "bytes": 81788,
-    "sha256": "3f0ab533f7a8b3b908ce33a3e4286def71e0d9ae7dea94c9e2087fdf507254f5"
+    "bytes": 134164,
+    "sha256": "fe1d6f595ed85efdfe517340175d2e89a3b1f920d71ea31dfc4dda84f5910e87"
   },
   "screenshots/15-version-history.png": {
-    "bytes": 108462,
-    "sha256": "daf6ffc85872aee85f9916273c9a1ca57ee54e1aa6250da65cd06a85c348d164"
+    "bytes": 702276,
+    "sha256": "eb17e0222174a757336af660f3d530540355c81b5b9259377a508b6f8ebc697e"
   },
   "screenshots/16-recovery-service-down.png": {
-    "bytes": 122658,
-    "sha256": "d5cc668034d08f7e28c2dbd3d320cd012357628212a4c668aefac512921053d5"
+    "bytes": 285807,
+    "sha256": "fd13e6f1e5ced4a873bbdd30d0afcc52fda82d408f4fc0c27759f80b67d61741"
   },
   "screenshots/17-recovery-service-restored.png": {
-    "bytes": 129722,
-    "sha256": "b84dc245e483457cf115d7595164e32d99b21a13caad81de3c135bbbecabbf89"
+    "bytes": 296886,
+    "sha256": "3486d80a55a908f5aca59ef0447b476acfced3e5a904b2e1bdc1515c57aeeff5"
   },
   "screenshots/18-export-degradation-report.png": {
-    "bytes": 157616,
-    "sha256": "6203ef05e07f7df49f4dacba9d725debb9f49443d1439ef5600937890a4da30f"
+    "bytes": 341039,
+    "sha256": "544c0f0234e647609677ca8d6e5d33c55d9f0256611e119638f1d4b6e85e25ef"
   },
   "screenshots/19-multilingual-live-translation.png": {
-    "bytes": 608170,
-    "sha256": "3694afb216eb5439251fef5a00e697c9f1e5f9e300f2361f781674741ff83bae"
+    "bytes": 574488,
+    "sha256": "1d24a7b73b14ea218ecaab3b8e9d1ef88e06d550be9761481ffcce763063947b"
   },
   "screenshots/20-narration-live-voice-list.png": {
-    "bytes": 570973,
-    "sha256": "5311c86da6c9024becfe3b3c052862889435ebf79d88130266ee47dd21fd96f1"
+    "bytes": 412462,
+    "sha256": "417542565df106bcaefebe8908855748dec709cdaba338a5fb042a4997af27a0"
   },
-  "screenshots/21-design-check.jpg": {
-    "bytes": 147911,
-    "sha256": "0b2ee5348d614c6e006036bafba843d412478f51908fd790ee3493c8b6c7d80e"
+  "screenshots/21-design-check.png": {
+    "bytes": 460184,
+    "sha256": "22ad4ca175481110391d2e73d0a8803b8a0c33967cf27546d3751d525f1016b4"
   },
-  "screenshots/22-settings-plan-credits.jpg": {
-    "bytes": 53044,
-    "sha256": "2711436d3f7bc3f4326d81cf5438e9989da920dd59e10f00c861617a84c062e6"
+  "screenshots/22-settings-plan-credits.png": {
+    "bytes": 55119,
+    "sha256": "e5dc787a7a425f4af9a9730e5af04d65e51b43834055e7313046b36575f3a8d9"
   },
-  "screenshots/23-settings-agent-access.jpg": {
-    "bytes": 37032,
-    "sha256": "cdb0688999c41132b1be252afaf331fd3c78e4a345c0571190fcbd5dc8a25bdf"
+  "screenshots/23-settings-agent-access.png": {
+    "bytes": 118641,
+    "sha256": "8edb52445efd333be564a9a1ed3b044f310a74a0693139d1345b57ace8453395"
   },
   "screenshots/24-account-local-cloud-state.png": {
-    "bytes": 123824,
-    "sha256": "4249cbacc6dc655d8f7ba77ffc846ffe1a910b6cd9a2e6d6bc9bb5ffa34991cc"
+    "bytes": 309935,
+    "sha256": "f4044a454169e9e29e6ccb177b951fbc30f70f1ff26bda71ac1177d76ff80f96"
   },
   "screenshots/25-workspace-settings.png": {
-    "bytes": 40434,
-    "sha256": "b07da289ff134e77d6ac58da1f4fdaead7032113056e927b2370ed12828fa9b9"
+    "bytes": 83419,
+    "sha256": "c00b8ee2d36935f88b5b03b9f47c262046a049479dc3e9eaba6de16076f30b4d"
   },
   "screenshots/26-privacy-backup-settings.png": {
-    "bytes": 83854,
-    "sha256": "0de0bad77b9279e37d0a51e8b749da437548463212c95bff9026521bfcfedf65"
+    "bytes": 214090,
+    "sha256": "cb86951d6ce87e07ed12428a2835041cb552a93c6f26c895d35608dd355614d6"
+  },
+  "screenshots/28-new-blank-deck.png": {
+    "bytes": 135746,
+    "sha256": "b08a0861915a8e8aac3ac678c55cf95add146614d28509cbb823bbb98b4ee483"
+  },
+  "screenshots/29-rename-title.png": {
+    "bytes": 135612,
+    "sha256": "c0d44beb68cc490b09000041265549b07b6e88d48efeee0b26795a73044aee78"
+  },
+  "screenshots/30-export-menu.png": {
+    "bytes": 146466,
+    "sha256": "f1784668451b3798181217d6a9bcd5faf5677772d09020d379c8373b94c2e609"
+  },
+  "screenshots/31-windows-smartscreen.png": {
+    "bytes": 31585,
+    "sha256": "768965df29040e2c37641705c6efcb1bb85ac26514b65da4f06830244c5184d5"
+  },
+  "screenshots/33-antigravity-config.png": {
+    "bytes": 114169,
+    "sha256": "25ce202e914992acf1ed19fe7a89196b639abdd7b785d1f6cfa6e8aad1bf2b80"
+  },
+  "screenshots/34-antigravity-connected.png": {
+    "bytes": 324070,
+    "sha256": "b57f33c9125f2cd978178bce019ee2cdeb64e491c1353ffc7257686948575d2d"
+  },
+  "screenshots/35-agent-access-chip.png": {
+    "bytes": 1401839,
+    "sha256": "00683c6b30c1252e583e40ed1797c88df24d3573872aec1610d18dc331ec77b7"
+  },
+  "screenshots/37-stale-edit-guard.png": {
+    "bytes": 356414,
+    "sha256": "105e93ef65fe5f9c9308c515abf0d96c31b89451dec750832223a81b45df43a7"
   }
 }

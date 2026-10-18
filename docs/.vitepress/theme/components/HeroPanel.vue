@@ -9,7 +9,7 @@ import { withBase } from 'vitepress'
       <h1>Presentations with agent speed.<br><span>Human control.</span></h1>
       <p class="hero-lede">Create structured, editable presentations manually, with an AI assistant, or through connected agents. Every connected-agent change waits for your approval.</p>
       <div class="hero-actions">
-        <a class="button primary" href="https://deckastra-web-794139896808.asia-south1.run.app/">Open Web App</a>
+        <a class="button primary" href="https://deckastra-web-fwqqltaqta-el.a.run.app/">Open Web App</a>
         <a class="button secondary" :href="withBase('/download')">Download beta</a>
         <a class="text-link" :href="withBase('/product/agent-review')">See agent review →</a>
         <a class="text-link" href="https://github.com/Nikhil0075/deckastra">View on GitHub →</a>
